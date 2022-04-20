@@ -1,0 +1,6 @@
+*.swp
+.vscode/
+.tmp/*
+.DS_Store
+output/
+theme/fonts/*.ttf

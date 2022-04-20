@@ -1,0 +1,74 @@
+// tag::cv-header[]
+// ドキュメント設定
+:encoding: utf-8
+:lang: ja
+:doctype: book
+:chapter-label:
+:docname: 職務経歴書
+:author: 記入者の名前 <メールアドレス>
+//:revnumber: 1.0.0
+:revdate: yyyy-mm-dd
+
+// 目次
+:toc:
+:sectnums:
+:toclevels: 4
+:toc-title: 目次
+
+// asciidoctor-pdf
+:pdf-stylesdir: theme
+:pdf-style: asciidoctor-pdf-my-theme.yml
+:pdf-fontsdir: theme/fonts
+:scripts: cjk
+// end::cv-header[]
+
+= 職務経歴書
+
+// -- 基本情報
+include::sections/basic_info.adoc[]
+
+
+// -- 職務要約
+// より自分を表現する方のみを使うのが良いと思います
+// 不要な方は削除してしまって問題ありません
+include::sections/keyword.adoc[tag=hashtag]
+include::sections/keyword.adoc[tag=summary]
+
+<<<
+
+// -- スキル・経験
+// 表にすると表現しにくいので、リストで記載してあります
+include::sections/skills.adoc[]
+
+// ここで一旦改ページ
+<<<
+
+// -- 職務経歴
+include::sections/job_resume_full.adoc[tag=company2]
+
+// 経験企業ごとに改ページ
+<<<
+
+include::sections/job_resume_full.adoc[tag=company1]
+
+// 改ページ
+<<<
+
+// -- 自己PR
+include::sections/about-myself.adoc[tag=about-myself]
+
+// -- 性格・思考
+include::sections/about-myself.adoc[tag=personality]
+
+// -- 今後のキャリアプラン
+include::sections/about-myself.adoc[tag=career-plan]
+
+// 改ページ
+<<<
+
+// -- その他（業務外など）の経歴
+include::sections/additional-info.adoc[]
+
+
+[.text-right]
+以上 +

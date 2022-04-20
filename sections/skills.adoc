@@ -1,0 +1,16 @@
+== スキル・経験
+=== モバイル開発
+* Swift：x年
+* Realm：x年
+* Objective-C：x年
+
+=== サーバサイド開発
+* PHP：x年
+** フレームワーク：CakePHP, Laravel
+* シェルスクリプト（bash）：x年
+* C言語：x年
+
+=== その他環境等
+* CentOS系 Linux：x年
+* Apache：x年
+* MariaDB：x年
